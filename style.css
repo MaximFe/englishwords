@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  padding: 10px 20px;
+  background-color: lightgrey;
+  margin-bottom: 55px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.flex-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  padding: 20px;
+}
+
+.input {
+  font-size: 3em;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.buttons {
+  width: 100%;
+  position: fixed;
+  bottom: 55px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  width: 100px;
+  padding: 20px;
+  background-color: lightgrey;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+.btn:active {
+  -webkit-box-shadow: inset 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 5px 5px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: inset 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
