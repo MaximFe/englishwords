@@ -32,7 +32,8 @@ header {
 }
 
 .input {
-  font-size: 3em;
+  font-size: 2.5em;
+  font-weight: lighter;
   margin-bottom: 55px;
   text-align: center;
 }
