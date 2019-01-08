@@ -11,15 +11,14 @@ function randomWord() {
 
   console.log('eng' + ' ' + randomElement + ' > ' + 'rus' + ' ' + (randomElement + 1));
   eng.textContent = dictionary[randomElement];
-  rus.textContent = '?'
-  translate = dictionary[randomElement + 1];
+  rus.textContent = translate = dictionary[randomElement + 1];
 };
 
-function translateWord() {
-  rus.textContent = translate;
-};
-
-translate_btn.addEventListener('click', translateWord);
-next_btn.addEventListener('click', randomWord);
-
-randomWord();
+next_btn.addEventListener('click', () => {
+  if (rus.classList.contains('hidden')) {
+    rus.classList.remove('hidden');
+  } else {
+    rus.classList.add('hidden');
+    randomWord();
+  }
+});
