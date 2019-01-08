@@ -37,6 +37,10 @@ header {
   text-align: center;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .buttons {
   width: 100%;
   position: fixed;
