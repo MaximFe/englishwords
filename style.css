@@ -28,7 +28,7 @@ header {
   font-weight: normal;
 }
 .flex{
-  min-height: 430px;
+  min-height: 420px;
   display: flex;
   flex-direction: column;
   align-items: center;
